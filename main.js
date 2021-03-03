@@ -11,7 +11,7 @@ client.once('ready', () => {
   updatePrice();
 });
 
-const prefix = "-";
+const prefix = "-";//
 
 client.on ('message', async message => {
   if (!message.content.startsWith(prefix) ) return
